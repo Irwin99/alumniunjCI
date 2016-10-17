@@ -31,9 +31,9 @@
 								<input class="form-control" type="text" placeholder="Password">
 						</div>
 						<div class="form-group">
-							<a href="#" style="color:#333">Forgot Password ?</a>
+							<a href="<?php echo base_url('page/forgot_password')?>" style="color:#333">Forgot Password ?</a>
 						</div>
-						<button class="btn btn-md form-control vcd-btn-primary" style="border-radius:0px">Login</button>
+						<a href="<?php echo base_url('page/profile')?>" class="btn btn-md form-control vcd-btn-primary" style="border-radius:0px">Login</a>
 					</div>
 					<div class="col-md-6" style="border-radius:0px">
 						<div class="input-group margin-bottom-sm form-group">
@@ -56,7 +56,7 @@
 							<span class="input-group-addon"><i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i></span>
 								<input class="form-control" type="text" placeholder="Email Address">
 						</div>
-						<button class="btn btn-md form-control vcd-btn-primary" style="border-radius:0px">Register</button>
+						<a href="<?php echo base_url('page/register')?>" class="btn btn-md form-control vcd-btn-primary" style="border-radius:0px">Register</a>
 					</div>
 				</div>
 			</div>

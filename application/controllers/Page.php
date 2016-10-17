@@ -7,6 +7,11 @@ class Page extends CI_Controller {
 		parent::__construct();
 	}
 
+	public function about(){
+		$data['title_web']= 'About';
+		$data['path_content']='module/about';
+        $this->load->view('pages/home', $data);
+	}
 	public function tokoh_alumni(){
 		$data['title_web']= 'Tokoh Alumni';
 		$data['path_content']='module/tokoh_alumni';
@@ -52,6 +57,11 @@ class Page extends CI_Controller {
 		$data['path_content']='module/login';
         $this->load->view('pages/home', $data);
 	}
+	public function forgot_password(){
+		$data['title_web']= 'Forgot Password';
+		$data['path_content']='module/forgot_password';
+        $this->load->view('pages/home', $data);
+	}
 	public function register(){
 		$data['title_web']= 'Register';
 		$data['path_content']='module/register';
@@ -60,6 +70,11 @@ class Page extends CI_Controller {
 	public function profile(){
 		$data['title_web']= 'Profile';
 		$data['path_content']='module/profile';
+        $this->load->view('pages/home', $data);
+	}
+	public function contact(){
+		$data['title_web']= 'Contact';
+		$data['path_content']='module/contact';
         $this->load->view('pages/home', $data);
 	}
 }

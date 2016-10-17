@@ -1,4 +1,4 @@
-<div class="container" style="margin-top:130px">
+<div class="container" style="margin-top:130px;margin-bottom:50px">
       <h4 class="modal-title text-center" style="margin-bottom:20px">News</h4>
       <div class=col-md-9>
         <div class="row" style="margin-bottom:20px">

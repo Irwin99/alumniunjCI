@@ -16,7 +16,7 @@
 	            <div class="carousel-caption">
 	              <h1>Alumni UNJ</h1>
 	              <p>Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet</p>
-	              <p><a class="btn btn-lg vcd-btn-primary btn-rd" href="#" role="button">Sign up today</a></p>
+	              <p><a class="btn btn-lg vcd-btn-primary btn-rd" href="<?php echo base_url('page/register')?>" role="button">Sign up today</a></p>
 	            </div>
 	          </div>
 	        </div>
@@ -62,7 +62,7 @@
 				<p>
 					Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet Lorem Ipsum Dolor Sil Amet
 				</p>
-				<a class="btn btn-sm vcd-btn-primary btn-rd" href="#" role="button">Read More</a>
+				<a class="btn btn-sm vcd-btn-primary btn-rd" href="<?php echo base_url('page/about')?>" role="button">Read More</a>
 			</div>
 		</div>
 	</div>
@@ -164,7 +164,7 @@
 				<div class="row">
 					<div class="col-md-3"></div>
 					<div class="col-md-6 col-xs-12">
-						<br/><a class="btn btn-block btn-lg vcd-btn-primary btn-rd" href="#" role="button">View All Alumni</a>
+						<br/><a class="btn btn-block btn-lg vcd-btn-primary btn-rd" href="<?php echo base_url('page/tokoh_alumni')?>" role="button">View All Tokoh</a>
 					</div>
 					<div class="col-md-3"></div>
 				</div>
@@ -192,7 +192,7 @@
 					</div>
 					<center>
 					<br />
-						<button class="btn btn-md vcd-btn-primary btn-rd">View All</button><br /><br />
+						<a class="btn btn-md vcd-btn-primary btn-rd" href="<?php echo base_url('page/alumni')?>" role="button">View All</a><br /><br />
 					</center>
 					</div>
 				</div> 
@@ -251,7 +251,7 @@
 		<div class="row">
 			<div class="col-md-3"></div>
 			<div class="col-md-6 col-xs-12">
-				<br/><a class="btn btn-block btn-lg vcd-btn-primary btn-rd" href="#" role="button">View All News</a>
+				<br/><a class="btn btn-block btn-lg vcd-btn-primary btn-rd" href="<?php echo base_url('page/news')?>" role="button">View All News</a>
 			</div>
 			<div class="col-md-3"></div>
 		</div>

@@ -36,16 +36,16 @@
     <div class="col-md-3 col-xs-6">
       <ul class="member-sidebar" style="list-style:none">
         <li>
-          <a href="#"><i class="fa fa-home" aria-hidden="true"></i>Dashboard</a>
+          <a href="<?php echo base_url('page/profile')?>"><i class="fa fa-home" aria-hidden="true"></i>Dashboard</a>
         </li>
         <li>
-          <a href="editprofile.html"><i class="fa fa-user" aria-hidden="true"></i>Edit Profile</a>
+          <a href="<?php echo base_url('page/edit_profile')?>"><i class="fa fa-user" aria-hidden="true"></i>Edit Profile</a>
         </li>
         <li>
-          <a href="ChangePassword.html"><i class="fa fa-key" aria-hidden="true"></i>Change Password</a>
+          <a href="<?php echo base_url('page/change_password')?>"><i class="fa fa-key" aria-hidden="true"></i>Change Password</a>
         </li>
         <li>
-          <a href="certified.html"><i class="fa fa-certificate" aria-hidden="true"></i>Certified</a>
+          <a href="<?php echo base_url('page/certified')?>"><i class="fa fa-certificate" aria-hidden="true"></i>Certified</a>
         </li>
       </ul>
     </div>
