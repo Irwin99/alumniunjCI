@@ -1,5 +1,5 @@
 <div class="container" style="margin-top:130px">
-  <h4 class="modal-title text-center" style="margin-bottom:20px">Edit Profile</h4>
+  <h4 class="modal-title text-center" style="margin-bottom:20px">Change Password</h4>
   <div class="row">
     <div class="col-md-9 col-xs-12">
       <div class="row" style="margin-bottom:20px">
